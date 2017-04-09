@@ -1,0 +1,75 @@
+body {
+    background: #4E3C35;
+    color: #FFE6CF;
+    font-family: 'Roboto Mono', sans-serif;
+    margin: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+p {
+    line-height: 2rem;
+}
+
+a {
+    color: #FFE6CF;
+}
+
+strong {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+address {
+    font-style: normal;
+    line-height: 2rem;
+}
+
+.container {
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+.my-name {
+    /*border-bottom: 1px dotted #FFE6CF;*/
+    color: #4E3C35;
+    background: #FFE6CF;
+    font-weight: 700;
+    padding: 0.3rem;
+    white-space: pre;
+}
+.social-icons {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 4rem;
+}
+
+.language-links {
+    text-align: right;
+    max-width: 35rem;
+    margin: 0 auto;
+}
+
+.language-links a {
+    display: inline-block;
+    padding: 0.3rem;
+}
+
+.language-links img {
+    width: 1.2rem;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 30rem) {
+    .container {
+        border: 4px double #FFE6CF;
+        padding: 2rem;
+    }
+}
